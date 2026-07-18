@@ -6,3 +6,5 @@
 npm install
 npm run dev
 ```
+
+All the answers can be found in NOTES.md file
