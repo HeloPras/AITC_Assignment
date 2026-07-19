@@ -3,12 +3,12 @@
 	gap: 1.25rem;
 	padding: 2rem 0;
 	overflow-x: auto;
-	/* overflow-y:hidden; */
+	overflow-y:hidden;
 }
 
 .card {
 	position: relative;
-	/* opacity:0; */
+	opacity:0;
 	flex: 0 0 200px;
 	background: #fff;
 	border-radius: 10px;

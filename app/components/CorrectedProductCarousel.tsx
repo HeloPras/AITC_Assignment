@@ -38,18 +38,16 @@ export default function ProductCarousel() {
 			gsap.fromTo(cards, {
 				x: -400,
 				y: 50,
-				opacity: 0,
 			}, {
 				opacity: 1,
 				x: 0,
 				y: 0,
-				duration: 0.6,
+				duration: 0.5,
 				ease: "bounce.out",
 				stagger: {
 					each: 0.05,
 					from: "end",
 				},
-				// clearProps: "all",
 			});
 		}, containerRef);
 
